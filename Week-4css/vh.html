@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vh vw</title>
+    <style>
+        .base{
+            background-color: #861717;
+            border: 1px solid;
+        }
+        .box{
+width: 250px;      
+border: 1px solid;
+  }
+  .fifty-percent{
+    width: 50%;
+  }
+  .vw50{
+    width: 50vw;
+  }
+  .vh50{
+height: 20vh;
+  }
+  html{
+    font-size: 10px;
+  }
+  .rems li{
+    font-size: 2.5rem;
+  }
+  .min{
+    background-color: #e912cc;
+    height: 10vmin;
+    width: 10vmin;
+  }
+    </style>
+</head>
+<body>
+    <div class="base fifty-percent">50%</div>
+    <div class="base vw50">50vw</div>
+    <div class="base vh50">50vh</div>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="box">
+        <div class="base fifty-percent">50%</div>
+        <div class="base vw50">50vw</div>
+        <div class="base vh50">50vh</div>
+    </div>
+    <ul class="rems">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <li>three A</li>
+    <li>three B</li>
+<div class="min"></div>
+</body>
+</html>
