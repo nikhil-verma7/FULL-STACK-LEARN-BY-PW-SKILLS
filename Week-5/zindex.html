@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .para {
+        /* overflow: hidden; */
+        /* overflow: clip; */
+        /* overflow: scroll; */
+        overflow: auto;
+        border: 1px solid black;
+        background-color: aqua;
+        padding: 20px;
+        height: 100px;
+      }
+      .container{
+        position: relative;
+      }
+      .box{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        color: slateblue;
+      }
+      .box1{
+        background-color: red;
+    z-index: 999;
+      }
+      .box2{
+        left: 50px;
+        top: 50px;
+        background-color: blue;
+    z-index: 2;
+      }
+      .box3{
+        background-color: green;
+        left: 70px;
+        top: 70px;
+    z-index: 4;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita deserunt tempora laudantium magni repellat dolorum? Libero ipsa possimus excepturi sunt vel eum quis quam voluptas. Qui sit, adipisci eius mollitia laboriosam doloremque architecto voluptates accusantium optio quod provident maxime amet laborum aperiam officiis repellat nisi, tempora alias voluptatum eos! Est unde ipsum dicta distinctio repudiandae aperiam harum dolorem modi nam et quod voluptas sapiente placeat, amet, laboriosam praesentium officia doloribus beatae consequuntur. Assumenda voluptates sapiente necessitatibus quae sed, aperiam nostrum ratione perferendis aut quia debitis est repellat enim! Corporis, esse harum! Rerum ipsam illo, itaque ea magnam labore doloribus maiores quam cum facere incidunt aspernatur officia veniam nobis aliquam nostrum est architecto? Eveniet quos iste vero soluta perferendis perspiciatis rem quis ducimus porro, et aliquid maiores praesentium laudantium ab voluptate saepe ea! Ipsa sed, quaerat esse nam rem voluptatum sapiente laborum, nihil quibusdam dolorum qui cupiditate eos amet. Quaerat ad consectetur autem natus, dolorem quo sit vero tempora modi accusantium beatae totam voluptatem esse architecto eveniet mollitia voluptatibus excepturi laudantium repudiandae aliquam quisquam error nemo! Hic, veniam, quos fugit impedit possimus veritatis ratione explicabo nulla ut earum eos. Exercitationem fuga optio doloribus blanditiis harum dolorem nesciunt nobis cupiditate voluptas recusandae molestias a odit accusamus ad ipsum unde sequi voluptates adipisci quasi omnis sapiente, sint sunt repudiandae! Tenetur nemo quibusdam est quos temporibus et deleniti illo consequatur in doloremque error corporis esse accusamus vitae modi quae aut illum iusto ab, fugit praesentium asperiores atque excepturi. Quis, exercitationem vero. Molestias dolores at suscipit inventore dolore nobis alias, doloremque, cupiditate exercitationem nihil corrupti natus officia cumque modi eos nam minima numquam animi voluptatum voluptate provident praesentium vitae ex quidem! Odio ad itaque cum obcaecati explicabo commodi delectus. Modi consectetur voluptatem quod qui illo quasi numquam natus ducimus laborum ex, ab totam quae nisi nobis eligendi mollitia. Labore inventore sint maxime cumque aperiam perferendis in ea quisquam maiores consequuntur. Laborum nesciunt blanditiis natus. Debitis, modi odio corporis tenetur obcaecati quos doloribus eligendi deserunt ipsam fugiat optio, ea repellat praesentium impedit, nemo velit! Ipsum tenetur ipsam earum, veritatis minus consequuntur atque nisi repellat repudiandae vitae in blanditiis libero assumenda mollitia facilis culpa dicta quia recusandae! Temporibus quasi magnam iste quaerat eligendi dolorem quas veritatis deserunt dolor. Velit autem, aliquam obcaecati a suscipit vero dolore, non modi perspiciatis rerum ab eum voluptatum eos tenetur quos maiores dolores animi! Repellendus facilis error accusantium enim corrupti odio placeat.</p>
+    
+        <div class="container">
+            <div class="box box1">Z idex-1</div>
+            <div class="box box2">Z index-2</div>
+            <div class="box box3">Z index-3</div>
+        </div>
+   
+    
+
+  </body>
+</html>
