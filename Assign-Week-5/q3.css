@@ -1,0 +1,35 @@
+
+.main-section{
+    width: 300px;
+    height: 650px;
+    background: #f1ebeb;
+    padding: 8px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 150px;
+}
+.text-1{
+    float: left;
+    width: 50%;
+}
+.text-2{
+    float: right;
+    width: 50%;
+}
+
+.text-f{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(57, 57, 228);
+}
+.text-r{
+    font-size: 12px;
+}
+.logo{
+text-align: center;
+}
+.title{
+    font-size: 13px;
+}
