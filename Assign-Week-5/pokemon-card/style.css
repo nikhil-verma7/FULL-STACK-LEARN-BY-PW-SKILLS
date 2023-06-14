@@ -1,0 +1,39 @@
+body{
+    position: relative;
+    text-align: center;
+}
+.card{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: #eb5f5f;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.card:hover {
+    z-index: 2;
+}
+.card-1{
+background-color: aqua;
+}
+.card-2{
+    margin-top: 80px;
+    background-color: rgb(67, 190, 19);
+    margin-left: 40px;
+}
+.card-3{
+position: absolute;
+margin-top: 150px;
+background-color: brown;
+margin-left: 70px;
+}
+img {
+    width: 150px;
+    height: 200px;
+    background-color: #101544;
+    
+}
