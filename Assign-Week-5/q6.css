@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: #12161f;
+    width: 150px;
+    min-height: 100vh;
+    float: left;
+    margin-top: 0;
+    padding-top: 0;
+}
+nav > img{
+    width: 100%;
+    background-color: #5ae2a9;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    display: block;
+    padding: 10px 25px;
+    border-bottom: 1px dashed black;
+}
+section{
+margin: 0px 50px 0px 200px ;
+color: aqua;
+}
+section >h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image>img{
+width: 500px;
+}
+p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 25px;
+}
+.image{
+    text-align: center;
+}
+.bot-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.bot-icon img{
+    width: 100px;
+}

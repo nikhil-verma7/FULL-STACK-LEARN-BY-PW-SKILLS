@@ -1,0 +1,29 @@
+.dropdown{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid black;
+    max-height: 150px;
+    width: 200px;
+    overflow-y: scroll;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+.dropdown-option{
+    padding: 10px ;
+    cursor: pointer;
+}
+.dropdown-option:hover{
+    background-color: aqua;
+}
+span{
+    background-color: rgb(245, 27, 27);
+    padding: 10px 25px;
+}
