@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> document</title>
+<style>
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        color: aliceblue;
+        height: 10vh;
+    }
+    .item{
+        width: 50px;
+        border: 1px solid black;
+ background-color: blue;
+    }
+    .stretch{
+        align-items: stretch;
+        
+    }
+    .start{
+        align-items: flex-start;
+
+    }
+    .end{
+        align-items: flex-end;
+
+    }
+    .center{
+        align-items: center;
+    }
+    .baseline{
+        align-items: baseline;
+    }
+</style>
+</head>
+<body>
+    <h1>Justify content:stretch (default)</h1>
+    <div class="container stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+<body>
+    <h1>Justify content:flex-Start (default)</h1>
+    <div class="container start">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>justify-content: flex-end</p>
+    <div class="container end">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+
+    <p>justify-content: space-between</p>
+    <div class="container between">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <p>justify-content: space-around</p>
+    <div class="container around">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <p>justify-content: space-evenly</p>
+    <div class="container evenly">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <p>justify-content: space-center</p>
+    <div class="container baseline">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>
