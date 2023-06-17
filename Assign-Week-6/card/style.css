@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: blue;
+margin-bottom: 10px;    text-align: center;
+}
+.card{
+    max-width: 300px;
+    border: 0;
+    border-radius: 10px;
+  background-color: aqua;
+  height:auto;
+  padding: 15px;
+}
+img{
+    width: 100%;
+}
+.subtitle{
+    text-align: center;
+    color: (87,87,87);
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+}
+.educator{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.price{
+    font-weight: bolder;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
