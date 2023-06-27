@@ -1,0 +1,31 @@
+.section-03 {
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+background-color: #2b1e16;
+}
+
+.sub-section {
+margin: 10px 50px;
+text-align: center;
+}
+
+.sub-section img {
+width: 150px;
+}
+
+.sub-section h1 {
+color: #fff;
+}
+
+.sub-section p {
+color: #8c6e54;
+}
+
+.sub-section-03-heading {
+margin-top: 60px;
+}
