@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form{
+        /* overflow: scroll; */
+      }
+      .h1 {
+        background-color: orange;
+      }
+      .b1,
+      .b2,
+      .b3 {
+        background-color: aqua;
+      }
+      button,
+      .b2 {
+        opacity: 0.5;
+      }
+      button,
+      .b2:hover {
+        opacity: 1;
+      }
+      textarea {
+        background-color: coral;
+      }
+      .h2 {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input
+        class="b1"
+        type="text"
+        id="name"
+        placeholder="name"
+        required
+      /><br /><br />
+      <label for="gmail">Gmail</label>
+      <input
+        class="b2"
+        type="gmail"
+        name="gmail"
+        id="gmail"
+        placeholder="gmail"
+        required
+      /><br /><br />
+      <label for="password">Password</label>
+      <input
+        class="b3"
+        type="password"
+        name=""
+        id="password"
+        placeholder="password"
+        required
+      /><br /><br />
+      <input type="checkbox" name="" id="" />
+      <br /><input type="color" name="" id="" />
+      <input type="datetime" name="" id="" />
+      <br />
+      <input type="radio" name="" id="" /><br />
+      <input type="file" name="" id="" /><br /><br />
+
+      <input type="image" src="./pw 2.png" alt="pw" class="h2" /><br /><br />
+      <button type="submit" class="h1">submit</button><br />
+      <textarea name="name" id="" cols="30" rows="10"></textarea><br />
+      <input type="search" name="" id="" /><br />
+      <input type="number" name="" id="" /><br />
+      <input type="button" value="2" /><br /><input
+        type="number"
+        name=""
+        id=""
+      /><br /><br />
+      <select name="nikhil" id="">
+        <option value="nikhil">nikhil</option>
+        <option value="prince">prince</option>
+      </select>
+    </form>
+  </body>
+</html>
