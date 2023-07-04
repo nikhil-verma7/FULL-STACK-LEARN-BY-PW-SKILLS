@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100vh;
+        }
+        h1{
+            color: rgb(206, 176, 176);
+        }
+        /* 576 px and down */
+        @media screen and (min-width: 576px) {
+            .box{
+                background-color: purple;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .box{
+                background-color: #2110b8;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .box{
+                background-color: #0edf1f;
+            }
+        }
+        
+        
+        
+        
+        /* small device: 576px and up */
+        @media screen and (min-width: 576px) {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 class="screen">Width :</h1>
+    </div>
+</body>
+</html>
